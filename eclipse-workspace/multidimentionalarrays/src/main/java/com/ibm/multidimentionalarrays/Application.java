@@ -2,8 +2,19 @@ package com.ibm.multidimentionalarrays;
  
 class Data{
 	static public int value;
-	public int getValue(){
+	{
+		System.out.println("Inline");
+	}
+	
+	static {
+		int value=20;
+		System.out.println("Static Initializer executed");
+	}
+	public static int getValue(){
 		return value;
+	}
+	public Data() {
+		System.out.println("Contructor");
 	}
 }
 public class Application
@@ -11,8 +22,7 @@ public class Application
 	int count = 34;
 	public static void main( String[] args )
 	{
-		Application application = new Application();
-		System.out.println(application.count);
+		new Data();
 		
 		
 	}
