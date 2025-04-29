@@ -1,0 +1,7 @@
+package mavenproject.entities;
+
+import Mammals;
+
+public class Human extends Mammals {
+
+}

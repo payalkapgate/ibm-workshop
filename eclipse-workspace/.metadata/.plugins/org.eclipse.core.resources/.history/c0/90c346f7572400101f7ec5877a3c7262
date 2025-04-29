@@ -1,0 +1,7 @@
+package mavenproject.entities.organs;
+
+import Eye;
+
+public class HumanEye extends Eye {
+
+}

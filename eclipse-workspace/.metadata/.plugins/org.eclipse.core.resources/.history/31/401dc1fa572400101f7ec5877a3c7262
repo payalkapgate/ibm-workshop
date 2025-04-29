@@ -1,0 +1,12 @@
+package mavenproject.entities;
+
+import mavenproject.entities.Mammals;
+
+public class Human extends Mammals {
+	public HumanEye leftEye, rightEye;
+	public Human() {
+		leftEye = new HumanEye();
+		rightEYe = new HumanEye();
+	}
+	
+}
