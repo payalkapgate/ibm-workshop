@@ -21,6 +21,10 @@ public class Application
 		if(employee != null) {
 			finance.processSalary(employee);
 		}
+		employee = hr.recruit("F");
+		if(employee != null) {
+			finance.processSalary(employee);
+		}
 		
 	}
 }

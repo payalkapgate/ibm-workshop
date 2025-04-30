@@ -8,5 +8,9 @@ public class Permanent extends Employee{
 		System.out.println("Permanent Salary");
 		
 	}
+	public void transportation() {
+		System.out.println("company provided transported facility");
+	}
+
 
 }
