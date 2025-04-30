@@ -925,3 +925,21 @@
 2025-04-30 15:58:23,234 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2025-04-30 15:58:23,235 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-04-30 15:58:23,236 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\oops\src\test\resources
+2025-04-30 16:54:36,782 [Worker-75: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\PayalAbhimanyuKapgat\eclipse-workspace\exceptions\pom.xml
+2025-04-30 16:54:37,755 [Worker-75: Creating quickstart-java8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ibm:exceptions:0.0.1-SNAPSHOT @ C:\PayalAbhimanyuKapgat\eclipse-workspace\exceptions\pom.xml.
+2025-04-30 16:54:37,964 [Worker-75: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exceptions/src/main/java
+2025-04-30 16:54:37,965 [Worker-75: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exceptions/src/main/resources
+2025-04-30 16:54:37,974 [Worker-75: Creating quickstart-java8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exceptions/src/test/java
+2025-04-30 16:54:38,066 [Worker-75: Creating quickstart-java8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2025-04-30 16:54:38,518 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:54:38,518 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-30 16:54:38,519 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:54:38,519 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\exceptions\src\test\resources
+2025-04-30 16:57:20,502 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:57:20,503 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-30 16:57:20,505 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:57:20,505 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\exceptions\src\test\resources
+2025-04-30 16:57:30,744 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:57:30,745 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-30 16:57:30,747 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-30 16:57:30,748 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\exceptions\src\test\resources
