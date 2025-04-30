@@ -1,11 +1,11 @@
 package com.ibm.abtraction.payroll;
 
-public class Confirmed extends Employee{
+public class Permanent extends Employee{
 
 	@Override
 	public void salary() {
 		
-		System.out.println("Salary");
+		System.out.println("Permanent Salary");
 		
 	}
 
