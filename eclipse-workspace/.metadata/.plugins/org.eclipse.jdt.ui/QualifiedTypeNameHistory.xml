@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="mavenproject.entities.organs.HumanEye"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.ibm.multidimentionalarrays.Application"/>
     <fullyQualifiedTypeName name="com.ibm.innerclass.Human.HumanEye"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.Employee"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.Intern"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.Confirmed"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.HR"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.Permanent"/>
+    <fullyQualifiedTypeName name="com.ibm.abtraction.payroll.Finance"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>

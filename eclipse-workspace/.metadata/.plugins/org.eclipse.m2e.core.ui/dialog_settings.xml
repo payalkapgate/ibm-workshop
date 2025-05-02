@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\PayalAbhimanyuKapgat\eclipse-workspace\oops"/>
+			<item value="C:\PayalAbhimanyuKapgat\eclipse-workspace\abtraction\src\main\java\com\ibm\abtraction\payroll\Finance.java"/>
 			<item value="C:\PayalAbhimanyuKapgat\eclipse-workspace\arrays\src\main\java\com\ibm\arrays\Application.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,15 +28,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ibm.innerclass"/>
-			<item value="com.ibm.multidimentionalarrays"/>
 		</list>
 		<list key="groupId">
-			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
-			<item value="innerclass"/>
-			<item value="multidimentionalarrays"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
