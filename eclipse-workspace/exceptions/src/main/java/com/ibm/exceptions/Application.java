@@ -11,6 +11,7 @@ public class Application
 			firstParam = args[0];
 			secondParam = args[1];
 			try {
+				System.exit(0);
 				System.out.println(Integer.parseInt(firstParam)/Integer.parseInt(secondParam));
 			}
 			catch(NumberFormatException exception) {
