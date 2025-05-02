@@ -1,18 +1,16 @@
 package com.ibm.threads;
-class Runner implements Runnable{
-	@Override
-	public void run() {
+ 
+public class Application
+{
+	public static void workLoad() {
 		for(int c=0;c<10;c++) {
 			System.out.println(Thread.currentThread()+"--->"+String.valueOf(c));
 		}
 	}
-}
-public class Application
-{
 	public static void main( String[] args )
 	{
-		Runner runner = new Runner();
-		Thread thread1 = new Thread(runner);
+		
+		Thread thread1 = new Thread(() -> workLoad());
 		System.out.println(thread1.getState());
 		thread1.start();
 		System.out.println(thread1.getState());
