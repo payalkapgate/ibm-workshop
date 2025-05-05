@@ -18,6 +18,11 @@ class Point{
 		return false;
 		
 	}
+	@Override
+	public String toString() {
+		 
+		return x +" "+y;
+	}
 	 
 }
  
@@ -27,6 +32,9 @@ public class Application
 	{
 		Point point1 = new Point(2, 4);
 		Point point2 = new Point(2,4);
+		String stringPoint = point1.toString();
+		System.out.println(point1);
 		System.out.println(point1.equals(point2));
+		
 	}
 }
