@@ -1,7 +1,0 @@
-package mavenproject.entities;
-
-import Human;
-
-public class Man extends Human {
-
-}
