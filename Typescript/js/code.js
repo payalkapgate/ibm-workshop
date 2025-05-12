@@ -1,15 +1,11 @@
-//console example
-console.info("You are awesome");
-console.log("IBM Technologies");
-console.log({
-    name: "Sam Simon",
-    age: 43,
-});
-console.log(["Apple", "Banana", "Orange"]);
-console.error("Something is wrong");
-console.table(["orange", "apple", "grape"]);
-console.assert(2 > 3, "It cannot be");
-//console.clear();
-console.warn("I usually get ignored");
-console.time();
-console.timeEnd();
+// Grouping console example
+function f1() {
+    console.log("Group 1");
+    console.groupCollapsed();
+    console.info("Getting started");
+    console.error("Something went wrong");
+    console.log("logging this");
+    console.groupEnd();
+}
+console.info("Bye");
+f1();
