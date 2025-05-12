@@ -1,15 +1,7 @@
-//block scope example
-const x=22;
-{
-    const x = 90;
-    console.log(x);
-    {
-        const x = 56;
-        console.log(x);
-    }
-    {
-        const x = 45;
-        console.log(x);
-    }
-}  
-console.log(x);
+//Prompt and alert example
+let userInput: string | null = window.prompt("Please Enter your input: ");
+ if(userInput !== null){
+    window.alert(`Hello, ${userInput}!`);
+ }else{
+    window.alert("You clicked cancel or closed the prompt");
+ }

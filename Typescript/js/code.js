@@ -1,15 +1,8 @@
-//block scope example
-var x = 22;
-{
-    var x_1 = 90;
-    console.log(x_1);
-    {
-        var x_2 = 56;
-        console.log(x_2);
-    }
-    {
-        var x_3 = 45;
-        console.log(x_3);
-    }
+//Prompt and alert example
+var userInput = window.prompt("Please Enter your input: ");
+if (userInput !== null) {
+    window.alert("Hello, ".concat(userInput, "!"));
 }
-console.log(x);
+else {
+    window.alert("You clicked cancel or closed the prompt");
+}
