@@ -1,7 +1,15 @@
-//DOM manipulation example
-const demoElement = document.getElementById("demo");
-if(demoElement){
-    demoElement.style.fontSize = "34px";
-    demoElement.style.color = "blue";
-     
-}
+//console example
+console.info("You are awesome");
+console.log("IBM Technologies");
+console.log({
+    name: "Sam Simon",
+    age: 43,
+});
+console.log(["Apple", "Banana", "Orange"]);
+console.error("Something is wrong");
+console.table(["orange", "apple", "grape"]);
+console.assert(2 > 3, "It cannot be");
+//console.clear();
+console.warn("I usually get ignored");
+console.time();
+console.timeEnd();
