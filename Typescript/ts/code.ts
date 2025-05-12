@@ -1,11 +1,11 @@
-// Grouping console example
 function f1(){
-    console.log("Group 1");
-    console.groupCollapsed();
-    console.info("Getting started");
-    console.error("Something went wrong");
-    console .log("logging this");
-    console.groupEnd();
+    console.log(`f1()`);
 }
-console.info("Bye");
 f1();
+var f2=function(){
+    console.log(`f2()`);
+}
+f2();
+var f3 = () => console.log(`f3()`);
+
+f3();
