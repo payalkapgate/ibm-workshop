@@ -1934,3 +1934,11 @@
 2025-05-13 16:33:18,477 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\spring\src\test\resources
 2025-05-13 16:39:46,910 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-05-13 16:39:46,911 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-05-13 16:39:46,912 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-13 16:39:46,912 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\spring\src\test\resources
+2025-05-13 16:55:42,548 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-13 16:55:42,549 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-05-13 16:55:42,552 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-13 16:55:42,552 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PayalAbhimanyuKapgat\eclipse-workspace\spring\src\test\resources
+2025-05-13 16:55:53,972 [Worker-63: Launching Application (14)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-05-13 16:55:53,973 [Worker-63: Launching Application (14)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
