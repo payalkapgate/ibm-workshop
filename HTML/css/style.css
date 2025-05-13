@@ -1,0 +1,28 @@
+h3{
+    color: green;
+}
+h4{
+    color: black;
+}
+#headline1{
+    color:green;
+    text-align: center;
+}
+#headline{
+    text-align: center;
+}
+.banner{
+    background-color: green;
+}
+/*universal selector*/
+*{
+    background-color: lightcoral;
+    font-weight: bold;
+    margin-right: white
+}
+/*group selector*/
+#headline, banner,h4{
+    color:black;
+    background-color: purple;
+    font-family: monospace;
+}
