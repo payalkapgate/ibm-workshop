@@ -5,8 +5,8 @@
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
    
-   <bean id="textEditor" class="com.ibm.spring.TextEditor" scope="singleton" >
-   	  <property name="spellChecker" ref="spellChecker"/>
+   <bean id="textEditor" class="com.ibm.spring.TextEditor" scope="singleton" autowire="byName">
+   	  
    </bean>
    
    <bean id="spellChecker" class="com.ibm.spring.SpellChecker" scope="singleton" >
