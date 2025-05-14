@@ -17,11 +17,26 @@ function Greeting({name, city}:GreetingProp) {
     </>
   )
 }
-function App(){
+interface Abuttonprops{
+  title:string;
+  disabled:boolean;
+  
+}
+function Abutton({title,disabled}:Abuttonprops){
   return(
     <>
-      <Greeting name="IBMer" city="Banagalore"/>
+      <button disabled={disabled}>{title}</button>
     </>
+  )
+}
+function App(){
+  return(
+    <div>
+      <Greeting name="IBMer" city="Banagalore"/>
+       
+      <Abutton title='Abutton' disabled = {false}/>
+
+    </div>
   )
   
 }

@@ -40,4 +40,9 @@
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.ibm.spring.Greeting"/>
+    <fullyQualifiedTypeName name="com.ibm.spring.SpellChecker"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 </qualifiedTypeNameHistroy>
