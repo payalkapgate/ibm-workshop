@@ -7,6 +7,7 @@ public class TextEditor {
 	public TextEditor() {
 		
 	}
+	
 	public TextEditor(SpellChecker spellChecker){
 		System.out.println("Inside Text Editor constructor");
 		this.spellChecker = spellChecker;
