@@ -1,5 +1,7 @@
 package com.ibm.spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class TextEditor {
 	public SpellChecker spellChecker;
 	public TextEditor() {
@@ -9,7 +11,7 @@ public class TextEditor {
 		System.out.println("Inside Text Editor constructor");
 		this.spellChecker = spellChecker;
 	}
-	
+	@Autowired
 	public void setSpellChecker(SpellChecker spellChecker) {
 		this.spellChecker = spellChecker;
 	}
