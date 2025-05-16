@@ -12,5 +12,6 @@
         <p>This is the homepage!</p>
         
         <a href="about/">AboutUs</a>
+        <a href="employee/form">Register Here</a>
     </body>
 </html>

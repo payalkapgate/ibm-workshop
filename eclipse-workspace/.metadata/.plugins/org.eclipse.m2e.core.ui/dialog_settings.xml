@@ -30,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ibm.springmvc"/>
 			<item value="com.ibm.springjdbc"/>
 			<item value="com.ibm.dependency_injection"/>
 			<item value="com.ibm.spring"/>
@@ -44,6 +45,7 @@
 			<item value="com.ibm"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
 			<item value="springjdbc"/>
 			<item value="dependency_injection"/>
 			<item value="spring"/>
