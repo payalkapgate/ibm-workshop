@@ -1,44 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import ExpenseEntryItem from "./components/ExpenseEntryItem";
 
-interface GreetingProp{
+interface GreetingsProp {
   name: string;
   city: string;
 }
-function Greeting({name, city}:GreetingProp) {
+const headlineClass = "red";
+
+interface ActionButtonProps{
+  title: string;
+  disabled: boolean;
+}
+
+function handleClick(){
+  alert('Button Clicked');
+}
+
+function ActionButton({title,disabled}:ActionButtonProps){
+  return(
+    <>
+        <button disabled={disabled} onClick={handleClick} >{title}</button>
+    </>
+  )
+}
+
+function Greeting({ name, city }: GreetingsProp) {
+  return (
+    <h2>
+      Hello, {name} from {city}
+    </h2>
+  );
+}
+function App() {
   return (
     <>
-      <div>
-        <h1>Hello {name} from {city}</h1>
-      </div>
-       
+      <Greeting name="I am a IBMer" city="Bengaluru" />
+      <ExpenseEntryItem/>
+      <ActionButton title="This is button" disabled={false}/>
     </>
-  )
-}
-interface Abuttonprops{
-  title:string;
-  disabled:boolean;
-  
-}
-function Abutton({title,disabled}:Abuttonprops){
-  return(
-    <>
-      <button disabled={disabled}>{title}</button>
-    </>
-  )
-}
-function App(){
-  return(
-    <div>
-      <Greeting name="IBMer" city="Banagalore"/>
-       
-      <Abutton title='Abutton' disabled = {false}/>
-
-    </div>
-  )
-  
+  );
 }
 
-export default App
+export default App;
